@@ -1,0 +1,92 @@
+.block1 {
+  padding: 30px;
+  background-color: rgba(120, 206, 212, 0.46);
+  height: 20em;
+}
+
+.block1 p {
+    font-size: 3em;
+    width: 20em;
+}
+
+.block1 button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 15em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.block1 img {
+    height: 20em;
+    border: 3px solid black;
+    margin-right: 5em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.block2 {
+  padding: 30px;
+  background-color: rgba(231, 231, 231, 1);
+  height: 20em;
+}
+
+.block2 p {
+    font-size: 1.25em;
+}
+
+.block3 {
+  height: 20em;
+  display: flex;
+}
+
+.block3.a {
+    width: 33%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.block3.a button {
+    font-size: 3em;
+    width: 5em;
+}
+
+.block3.a p {
+    color: white;
+    font-size: 2em;
+    width: 75%;
+}
+
+.block3.b {
+    width: 33%;
+    background-color: rgba(199, 221, 65, 0.55);
+    justify-content: center;
+    align-items: center;
+}
+
+.block3.c {
+    width: 34%;
+    background-color: rgba(141, 166, 232, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.block3.c button {
+    font-size: 3em;
+    width: 5em;
+}
+
+.block3.c p {
+    font-size: 2em;
+    width: 75%;
+}
